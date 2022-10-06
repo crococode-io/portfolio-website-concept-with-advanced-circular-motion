@@ -1,6 +1,6 @@
 # Portfolio Website Concept with Advanced Circular Motion
 
-An animated portfolio website concept with the circular motion made with CSS3, Javascript and GSAP's TweenMax and CSSPlugin.
+An animated portfolio website concept with the circular motion made with CSS3, Javascript and GSAP's TweenMax and CSSPlugin. 
 
 ![Portfolio Website Concept with Advanced Circular Motion](https://raw.githubusercontent.com/crococode-io/images/main/portfolio-website-concept-with-advanced-circular-motion.png)
 
