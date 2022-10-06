@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio Website Concept with Advanced Circular Motion - CROCO.CODE</title>
+		<meta name="description" content="An animated portfolio website concept with the circular motion made with CSS3, Javascript and GSAP's TweenMax and CSSPlugin." />
+		<meta name="keywords" content="tweenmax, gsap, website, javascript, portfolio, cssplugin, jquery, inspiration" />
+		<meta name="author" content="CROCO.CODE" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+  </head>
+  <body>
+    
+    <!-- CROCO.CODE:loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- CROCO.CODE:loader END -->
+
+    <!-- CROCO.CODE:header START -->
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <a href="#"><span>#</span>SHADES</a>
+        </div>
+        <nav class="navigation">
+          <li><a href="https://github.com/crococode-io">github</a></li>
+          <li><a href="https://www.instagram.com/croco.code">instagram</a></li>
+          <li><a href="https://www.tiktok.com/@croco.code">tiktok</a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- CROCO.CODE:header END -->
+
+    <!-- slideshow START -->
+    <section class="slideshow">
+      
+      <!-- slideshow:content START -->
+      <div class="content main-content" data-id="content-1" style="background-image: url(assets/img/img-1.jpeg);">
+        <div class="inner">
+          <h2>Landscape</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content main-content-1" data-id="content-2">
+        <div class="inner">
+          <h2>Portrait</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content main-content-2" data-id="content-3">
+        <div class="inner">
+          <h2>Architectur</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content main-content-3" data-id="content-4">
+        <div class="inner">
+          <h2>Wedding</h2>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum hic blanditiis fugit laboriosam a ad tempora, rem modi deleniti, odit dolores et, doloribus quo quaerat nihil fuga. Sapiente, voluptatem, dolor.</p>
+            <a href="#">Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- slideshow:content END -->
+      
+      <!-- slideshow:rotating-backgrounds END -->
+      <div class="background main-background"></div>
+      <div class="background main-background-1"></div>
+      <div class="background main-background-2"></div>
+      <div class="background main-background-3"></div>
+      <!-- slideshow:rotating-backgrounds END -->
+      
+      <!-- slideshow:navigation START -->
+      <ul class="navigation">
+        <li 
+          class="nav-item"
+          data-id="1" 
+          data-rotation="0" 
+          data-bcg="assets/img/img-1.jpeg">
+          <span>#1</span>
+        </li>
+        <li 
+          class="nav-item"
+          data-id="2" 
+          data-rotation="90" 
+          data-bcg="assets/img/img-2.jpeg">
+          <span>#2</span>
+        </li>
+        <li 
+          class="nav-item"
+          data-id="3" 
+          data-rotation="180" 
+          data-bcg="assets/img/img-3.jpeg">
+          <span>#3</span>
+        </li>
+        <li 
+          class="nav-item"
+          data-id="4" 
+          data-rotation="270" 
+          data-bcg="assets/img/img-4.jpeg">
+          <span>#4</span>
+        </li>
+      </ul>
+      <!-- slideshow:navigation END -->
+      
+    </section>
+    <!-- slideshow END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
